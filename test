@@ -1,0 +1,301 @@
+[0-9]+\. 
+
+1. Is the following statement true or false? Deposits are usually performed in the late evening, after all shipments have been processed through Bill Async or as an initial step in the morning before Async is brought up.
+True (*)
+False
+ Correct
+
+2. What is NOT a message type represented in OMS?
+Messages about an item
+Messages about a return to vendor (*)
+Messages from a source code
+Messages about a particular order
+ Incorrect
+
+3. Is the following statement true or false? OMS supports both online and batch authorization.
+True (*)
+False
+ Correct
+
+4. Is the following statement true or false? The authorization report lists only the specified orders that were authorized.
+True
+False (*)
+ Incorrect
+
+5. The discount percent is loaded into the order entry discount percentage field on the order header for membership and non-membership orders until the membership is ________.
+Exchanged
+Updated
+Modified
+Closed or the discount duration days is reached (*)
+ Incorrect
+6. Is the following statement true or false? It is very important to ensure your custom pick ticket accommodates printing item comments.
+True (*)
+False
+ Correct
+
+7. Is the following statement true or false? Tickler assignment allows all users access to the tickler and the associated data.
+True
+False (*)
+ Incorrect
+
+8. The source code found on the Order Header controls?
+(Choose all correct answers)
+Sales posting (*)
+Pricing (*)
+Backorder inventory
+Freight (*)
+ Incorrect
+
+9. It is important that each pick control number is scanned or manually confirmed, or the order will not be closed, and the customer ___________.
+Will be allowed pickup from store
+Will not receive a refund
+Will not get a an e-mail confirmation of shipment
+Will not be billed for the merchandise (*)
+ Incorrect
+
+10. If you enter a membership through Order Entry, you are required to enter a ______ on the membership if the membership has any detail lines, meaning we're going to ship them something.
+Cell phone number
+e-mail address
+Address
+Pay type (*)
+ Incorrect
+11. Is the following statement true or false? RESTful web services provide an interface from OMS to the payment processor for sending and receiving transactions and data.
+True (*)
+False
+ Correct
+
+12. The offer on a customer order defaults from the source code entered on the ________.
+Comments section
+Order Header (*)
+Order detail
+Order Entry
+ Incorrect
+
+13. What is NOT a required field in the source code upload?
+Description
+Company
+Freight method
+Tax ID (*)
+ Incorrect
+
+14. Is the following statement true or false? Match codes are unique customer identification codes that consist of selected portions of a customer name, company name, and address information.
+True (*)
+False
+ Correct
+
+15. To view a customer refund, what screen should you select?
+Customer Notes
+Create Order
+Order Inquiry (*)
+Change Defaults
+ Incorrect
+16. What field do you need to use when it comes to scheduling when to execute the periodic process?
+Daily field
+Frequency field (*)
+Function field
+None of these answers are correct
+ Incorrect
+
+17. Is the following statement true or false? An order may split into several pick tickets because an item has a different warehouse than other items on the order.
+True (*)
+False
+ Correct
+
+18. Is the following statement true or false? Voiding a pick ticket does adjust the on-hand inventory.
+True
+False (*)
+ Incorrect
+
+19. What data is loaded from RMS into the Order Management System?
+Store
+Store Address
+Organizational Hierarchy
+Prices changes (*)
+ Incorrect
+
+20. What are two common methods of freight?
+(Choose all correct answers)
+Backhaul
+Drop ship
+Freight by dollar chart (*)
+Freight by percentage (*)
+ Incorrect
+21. Is the following true or false? You are not allowed set up price override reason codes.
+True
+False (*)
+ Incorrect
+
+22. What data is not found on a Order Header?
+Order Number
+Sold-to Customer Number
+Source Type
+Customer Cell number (*)
+ Incorrect
+
+23. Is the following statement true or false? The system will not generate a refund if the order is held-- the H status-- or suspended-- S status.
+True (*)
+False
+ Correct
+
+24. The system creates a refund anytime there's a difference between the order total and the payment, this process can be triggered by what events?
+Customer returns an item
+Cancel all or part of a prepaid order at the customer's request
+Cancel all or part of a prepaid order because the merchandise is sold out
+All of these answers are correct (*)
+ Incorrect
+
+25. Is the following statement true or false? Confirmation is not typically through the WMS or third party interface with the manifesting package, such as ADSI.
+True
+False (*)
+ Incorrect
+26. Is the following statement true or false? Order History does not contain the tracking information for an order.
+True
+False (*)
+ Incorrect
+
+27. SO is our Sold-out Order Tickler Event, this tickler is created when the system sells out an item and one or more of the following criteria are met in this case the order line is sold-out by ______.
+Returns
+High traffic seasons
+A batch process (*)
+Interactively
+ Incorrect
+
+28. What is NOT a customer service additional line indicator?
+OBR
+TZ (*)
+RTN
+SP
+ Incorrect
+
+29. Is the following statement true or false? An order may split into several pick tickets because an item has a different warehouse than other items on the order.
+True (*)
+False
+ Correct
+
+30. What is NOT a characteristic of Avalara AvaTax?
+When it needs to calculate tax, it makes a web service call out to AvaTax
+A tax solution that provides an alternative to Vertex
+Calculates tax during order entry, pick slip, and billing
+Offers flat rate tax (*)
+ Incorrect
+ 31. Is the following statement true or false? An item is unable to be assigned to multiple offers.
+True
+False (*)
+ Incorrect
+
+32. Is the following statement true or false? The refund date is always the date the refund was mailed to the customer.
+True
+False (*)
+ Incorrect
+
+33. Is the following statement true or false? OMS creates a tickler when the system updates the status of an order line to open, which would go on during our order accept processing or closed during the Billing Async processing when certain criteria are met.
+True (*)
+False
+ Correct
+
+34. The user also has the ability to increase or decrease inventory in using System Delivered and user defined inventory transaction codes and an example of these codes includes?
+(Choose all correct answers)
+V (*)
+A (*)
+T (*)
+B
+ Incorrect
+
+35. The cancel refund process, allows the user to select the Cancel options for refunds that are in the following two statuses.
+(Choose all correct answers)
+Process notifications
+Stop payment
+Held open (*)
+Write off pending (*)
+ Incorrect
+36. Is the following statement true or false? Daily Sales Journal is a job that is typically recommended to be ran at the end of each day.
+True (*)
+False
+ Correct
+
+37. Is the following statement true or false? When updating a quantity on an order, you must enter a cancel reason.
+True (*)
+False
+ Correct
+
+38. Orders can be searched by what three ways?
+(Choose all correct answers)
+Customer number (*)
+Order number (*)
+Vendor number
+Order Status (*)
+ Incorrect
+
+39. Tickler categories allow you to group ticklers by the _______ and ________.
+(Choose all correct answers)
+Resolution code
+Reason code
+Event (*)
+Event rule (*)
+ Incorrect
+
+40. The following orders go through the order entry process.
+Web orders
+Mail order
+Phone orders
+All of these answers are correct (*)
+ Incorrect
+ 41. What functionality does the API provide?
+Invoking a periodic process through a web service
+Execution of periodic prices manually
+Sending an outbound job notification
+All of these answers are correct (*)
+ Incorrect
+
+42. Is the following statement true or false? Periodic functions include reports listing or summarizing activity in a particular area of your business, such as reports providing current status information on your business, such as carryover pick slips.
+True (*)
+False
+ Correct
+
+43. Is the following statement true or false? Pick generation is a step in the daily cycle which selects order detail lines to be included on pick tickets, calls the credit card authorization module to perform credit card authorizations for any that didn't have an online authorization already.
+True (*)
+False
+ Correct
+
+44. Async Processing, or background processing that performs file updating throughout OROMS what is NOT one of the four Async jobs?
+Billing Async
+Returns Async (*)
+Order Async
+Controlling Async
+ Incorrect
+
+45. Voiding a pick ticket is like ripping it up in the system however it does not _______.
+Adjust the on-hand inventory (*)
+Send out a billing notice
+Change Defaults
+Update the customer file
+ Incorrect
+ 46. Orders that are confirmed are sent to the Billing Async job and the Billing Async job creates the following _______, ______, and ______.
+(Choose all correct answers)
+Invoice header (*)
+Detail (*)
+Payment records (*)
+None of these answers are correct
+ Correct
+
+47. Is the following statement true or false? The BI Publisher is an application outside of Order Manager and can be installed before Order Manager
+True
+False (*)
+ Incorrect
+
+48. How many factors of authentication does MFA require in order to login?
+7
+1
+2 (*)
+5
+ Correct
+
+49. Is the following statement true or false? A pick ticket is not generated for a held order and it is not passed to the WMS.
+True (*)
+False
+ Correct
+
+50. Is the following statement true or false? The membership item will automatically be expressed billed in pick slip generation if it is the only item on the order.
+True (*)
+False
+ Correct
